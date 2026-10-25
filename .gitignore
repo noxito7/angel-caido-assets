@@ -1,0 +1,23 @@
+# Modelos de IA (son muy pesados, no van al repo)
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+*.gguf
+
+# Imagenes generadas por ComfyUI (van a output/, no al repo)
+comfyui/output/
+
+# Imagenes de referencia (las 220 imagenes de concepto)
+references/raw/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Aseprite archivos temporales
+*.aseprite-bak
+
+# Windows
+*.lnk
